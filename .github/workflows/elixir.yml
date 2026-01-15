@@ -20,7 +20,7 @@ jobs:
 
     defaults:
       run:
-        workin-directory: ./test_app
+        working-directory: ./test_app
 
     services:
       postgres:
