@@ -52,6 +52,8 @@ jobs:
       run: pwd && ls -la 
     - name: Install dependencies
       run: mix deps.get
+      run: mix assets.setup
+      run: mix deps.compile
     - name: Run tests
       run: mix test
       env:
