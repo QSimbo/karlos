@@ -34,7 +34,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Set up Phoenix
-      uses: actions/setup-elixir@v
+      uses: actions/setup-elixir@v1
       with:
         elixir-version: '1.10.3' # [Required] Define the Elixir version
         otp-version: '22.3'      # [Required] Define the Erlang/OTP version
