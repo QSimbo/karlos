@@ -26,8 +26,6 @@ jobs:
       postgres:
         image: postgres:12
         ports: ['5432:5432']
-        env:
-          POSTGRES_PASSWORD: postgres 
         options: >-
           --health-cmd pg_isready
           --health-interval 10s 
@@ -56,9 +54,6 @@ jobs:
         #run: mix deps.compile
     - name: Run tests
       run: mix test
-      env:
-        DB_PASSWORD:  postgres
-        DB_HOST:  postgres
 
 
 
