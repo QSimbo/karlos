@@ -34,8 +34,8 @@ jobs:
     - name: Set up Phoenix
       uses: actions/setup-elixir@v1
       with:
-        elixir-version: '1.10.3' # [Required] Define the Elixir version
-        otp-version: '22.3'      # [Required] Define the Erlang/OTP version
+        elixir-version: '1.17.3' # [Required] Define the Elixir version
+        otp-version: '27'      # [Required] Define the Erlang/OTP version
     - name: Restore dependencies cache
       uses: actions/cache@v3
       with:
