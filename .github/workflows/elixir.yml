@@ -3,7 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Elixir CI
+name: PHOENIX CI
 
 on:
   push:
@@ -64,4 +64,4 @@ jobs:
 
 
 
-
+T 
